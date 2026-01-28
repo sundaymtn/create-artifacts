@@ -7,6 +7,6 @@
     "test": "bun random-number-generator.js test-seed"
   },
   "dependencies": {
-    "@stdlib/random-base-mt19937": "^0.2.1"
+    "@stdlib/random-base-mt19937": "0.2.1"
   }
 }
