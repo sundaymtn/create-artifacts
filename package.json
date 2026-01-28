@@ -7,9 +7,8 @@
     "test": "bun random-number-generator.js test-seed"
   },
   "dependencies": {
-    "@stdlib/random-base-mt19937": "^0.2.1"
-  },
-  "overrides": {
+    "@stdlib/random-base-mt19937": "^0.2.1",
+
     "@stdlib/number-float16-ctor": "https://codeload.github.com/stdlib-js/number-float16-ctor/tar.gz/refs/heads/main",
     "@stdlib/number-float32-base-to-float16": "https://codeload.github.com/stdlib-js/number-float32-base-to-float16/tar.gz/refs/heads/main",
     "@stdlib/number-float64-base-to-float16": "https://codeload.github.com/stdlib-js/number-float64-base-to-float16/tar.gz/refs/heads/main",
