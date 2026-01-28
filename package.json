@@ -8,5 +8,11 @@
   },
   "dependencies": {
     "@stdlib/random-base-mt19937": "^0.2.1"
+  },
+  "overrides": {
+    "@stdlib/number-float16-ctor": "^0.0.0",
+    "@stdlib/number-float32-base-to-float16": "^0.0.0",
+    "@stdlib/number-float64-base-to-float16": "^0.0.0"
   }
 }
+``
