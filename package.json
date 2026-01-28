@@ -6,7 +6,14 @@
     "build": "bun build --compile --minify --sourcemap --target bun-linux-x64 --outfile random-number-generator-linux ./random-number-generator.js && bun build --compile --minify --sourcemap --target bun-darwin-arm64 --outfile random-number-generator-macos ./random-number-generator.js",
     "test": "bun random-number-generator.js test-seed"
   },
+
   "dependencies": {
-    "@stdlib/random-base-mt19937": "0.2.1"
+    "@stdlib/random-base-mt19937": "0.2.1",
+
+    "@stdlib/number-float16-ctor": "https://codeload.github.com/stdlib-js/number-float16-ctor/tar.gz/refs/heads/main",
+    "@stdlib/number-float32-base-to-float16": "https://codeload.github.com/stdlib-js/number-float32-base-to-float16/tar.gz/refs/heads/main",
+    "@stdlib/number-float64-base-to-float16": "https://codeload.github.com/stdlib-js/number-float64-base-to-float16/tar.gz/refs/heads/main",
+    "@stdlib/constants-float32-num-significand-bits": "https://codeload.github.com/stdlib-js/constants-float32-num-significand-bits/tar.gz/refs/heads/main"
   }
+
 }
